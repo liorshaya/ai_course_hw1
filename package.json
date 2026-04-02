@@ -1,0 +1,14 @@
+{
+  "name": "ai-course-hw1-agent",
+  "version": "1.0.0",
+  "description": "Node.js AI agent boilerplate",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "mathjs": "^14.9.1",
+    "openai": "^5.23.2"
+  }
+}
