@@ -16,7 +16,6 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 let history = [];
 
-
 function saveHistory() {
   fs.writeFileSync(HISTORY_PATH, JSON.stringify(history, null, 2), "utf8");
 }
