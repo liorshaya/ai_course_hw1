@@ -67,6 +67,8 @@ The "Brain's Storage". A JSON-based persistence layer that records every user tu
     ```env
     OPENAI_API_KEY=your_openai_key_here
     OPENWEATHER_API_KEY=your_openweather_key_here
+    CHAT_MODEL=gpt-4o-mini
+    ROUTER_MODEL=gpt-4o-mini
     ```
 
 4.  **Launch the Agent**:
